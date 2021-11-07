@@ -1,0 +1,22 @@
+.subs__main h3{
+   color: grey;
+}
+
+.subs__card p{
+    color: grey;
+}
+
+.subs__card h3, h1{
+    font-weight: 900 !important;
+}
+
+.subs__card  h1{
+    color: red;
+    font-weight: 900 !important;
+}
+
+
+.subs__btn:hover{
+    color: black;
+   background-color: white;
+}
