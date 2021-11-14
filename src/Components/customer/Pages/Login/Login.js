@@ -29,6 +29,8 @@ const Login = () => {
 
         firebase.auth().signInWithEmailAndPassword(user.email, user.password).then(() => {
             history.replace(`/students/dashboard/${user.email}`)
+       
+           
         }).catch((error) => {
             alert("No user exist | ", error);
         })
@@ -146,6 +148,7 @@ var SignupPage=()=>{
       .then(()=>{
         var newEmail=email.replace(".","*")
         newEmail=newEmail.replace(".","*")
+        alert("User Created succesfully")
         
         firebase.database().ref('/StudentData').child(newEmail).set(
         
