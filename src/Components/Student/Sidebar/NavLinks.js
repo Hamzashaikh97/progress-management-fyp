@@ -66,7 +66,7 @@ let studentsidebarMenu = {
       {
          "name": 'technicalSkills',
          "menu_title": "technicalSkills",
-         'path': '/students/softSkills',
+         'path': '/students/technicalSkills',
          "menu_icon": "zmdi zmdi-calendar",
          "type_multi": null,
          "new_item": true,

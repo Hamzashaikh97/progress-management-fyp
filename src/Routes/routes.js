@@ -24,7 +24,7 @@ import Reports from "../Components/Admin/Pages/OverAllReports/GenerateReport";
 
 // Student Routes
 import StudentDashboard from "../Components/Student/Pages/dashboard/ecommerce";
-import Calender from "../Components/Student/Pages/calender/Calender";
+import Calendar from "../Components/Student/Pages/calender/Calender";
 import CourseDetails from "../Components/Student/Pages/courseDetails/CourseDetails";
 import CvBuilder from "../Components/Student/Pages/cvBuilder/CvBuilder";
 import SoftSkills from "../Components/Student/Pages/softSkills/SoftSkills";
@@ -180,10 +180,10 @@ export const StudentLayoutPath = [
 	},
 	{
 		path: 'calender',
-		component: Calender
+		component: Calendar
 	},
 	{
-		path: 'courseDetails',
+		path: 'coursesDetails',
 		component: CourseDetails
 	},
 	{
