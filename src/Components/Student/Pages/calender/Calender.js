@@ -1,15 +1,20 @@
-import React from 'react';
-import PageTitleBar from "../../../../lib/vendor/PageTitleBar/PageTitleBar";
+import React from "react";
+import { Calendar } from 'react-big-calendar'
+import moment from 'moment'
+
+const MyCalendar = props => (
 
 
-const Calender = props => {
+  <div>
+    {/* <Calendar
+    //   localizer={localizer}
+    //   events={myEventsList}
+      startAccessor="start"
+      endAccessor="end"
+    /> */}
 
-    return (
-        <div>
-            <PageTitleBar title='Calender' match={props.match} />
 
-        </div>
-    );
-}
+  </div>
+)
 
-export default Calender;
+export default MyCalendar;
