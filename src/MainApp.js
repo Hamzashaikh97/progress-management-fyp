@@ -62,7 +62,7 @@ const MainApp = props => {
 		<VendorDashboardRoute key={key} path={`/teachers/${route.path}`} component={route.component} />
 	)
 	const studentLayoutRoute = StudentLayoutPath && StudentLayoutPath.map((route,key)=>
-		<StudentDashboardRoute key={key} path={`/students/${route.path}`} component={route.component} />
+		<StudentDashboardRoute key={key} path={`/students/${route.path}/:id`} component={route.component} />
 	)
 	return (
 		<ToastProvider>
