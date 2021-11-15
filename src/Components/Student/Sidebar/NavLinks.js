@@ -39,7 +39,7 @@ let studentsidebarMenu = {
       {
          "name": 'cvBuilder',
          "menu_title": "cvBuilder",
-         'path': '/students/cvBuilder',
+         'path': '/students/cvBuilder/',
          "menu_icon": "zmdi zmdi-calendar",
          "type_multi": null,
          "new_item": true,

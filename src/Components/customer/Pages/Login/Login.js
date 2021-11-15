@@ -28,7 +28,10 @@ const Login = () => {
         event.preventDefault()
 
         firebase.auth().signInWithEmailAndPassword(user.email, user.password).then(() => {
-            history.replace(`/students/dashboard/${user.email}`)
+            // history.replace(`/students/dashboard/`)
+            // history.replace(`/students/dashboard/`)
+            window.location.href="/students/dashboard/"
+
        
            
         }).catch((error) => {

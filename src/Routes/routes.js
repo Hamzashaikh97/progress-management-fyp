@@ -65,7 +65,7 @@ export const MainLayoutPath = [
 		path: '/service/:id',
 		component: StoreView
 	},
-	{
+	{	
 		path: '/result',
 		component: SearchResult
 	},
@@ -187,7 +187,7 @@ export const StudentLayoutPath = [
 		component: CourseDetails
 	},
 	{
-		path: 'cvBuilder',
+		path: 'cvBuilder/',
 		component: CvBuilder
 	},
 	{
